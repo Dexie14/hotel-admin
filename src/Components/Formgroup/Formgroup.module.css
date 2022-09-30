@@ -1,0 +1,35 @@
+.formgroup{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.form_label{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.form_input{
+    background-color: rgba(204, 206, 215, 0.29);
+    border: 0.5px solid #090231;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    margin: 0.5rem 0;
+}
+
+.form_input::placeholder{
+    font-size: 0.8rem;
+}
+
+
+
+.mail .form_input{
+    background-color: rgba(204, 206, 215, 0.29);
+    border: 0.5px solid #090231;
+    border-radius: 3px;
+    padding: 12px;
+    font-size: 14px;
+    outline: none;
+    margin: 1.5rem 0;
+}

@@ -1,0 +1,17 @@
+.dashboard{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #E7DCDC;
+}
+
+
+.contain{
+    width: 83vw;
+    background-color: #E7DCDC;
+}
+
+.dash_info{
+    width: 97%;
+    margin: 1rem auto 0;
+}

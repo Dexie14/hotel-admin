@@ -1,0 +1,173 @@
+.Overview{
+    background-color: white;
+    min-height: 85vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Overview_left{
+    width: 75%;
+}
+.welcome{
+    width: 90%;
+    margin: 1.2rem auto;
+}
+.Overview_right{
+    width: 25%;
+    border-radius: 15px;
+    border: 1px solid rgba(9, 2, 49, 0.25);
+}
+
+.box{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.deluxe{
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgba(16, 77, 233, 0.32);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.King{
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgba(205, 185, 251, 0.58);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.deluxe h2{
+    margin: 1rem 0;
+}
+.King  h2{
+    margin: 1rem 0;
+}
+
+.book{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.num{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.num h5{
+    padding: 14px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.num p {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+.sect{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 45%;
+}
+
+.but{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.welcome button{
+    width: 35%;
+    padding: 0.5rem;
+    border: 1.5px dashed rgba(79, 117, 83, 1);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(127.65deg, #E2D6FD 28.23%, #C7CDFA 58.84%, #B3C6F8 78.9%);
+}
+
+.graph{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(241, 241, 255, 0.67);
+    border-radius: 10px;
+}
+.graph img{
+    width: 100%;
+}
+
+
+.dash_right{
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.dash_right figure{
+    width: 100%;
+}
+.dash_right figure img{
+    width: 100%;
+}
+
+
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem 0;
+}
+
+
+.bookbrief{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.details{
+    display: flex;
+    width: 65%;
+    align-items: center;
+}
+.details img{
+    width: 90%;
+}
+.date,.dates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bookbrief p {
+    font-size: 0.8rem;
+}
+.date h6{
+    background-color: #E2D6FD;
+    width: 100%;
+    border-radius: 2px;
+    color: #350589;
+    text-align: center;
+    font-size: 0.5rem;
+    padding: 2px;
+    margin-top: 2px;
+}
+
+.dates h6{
+    background-color:rgba(238, 61, 61, 0.22);
+    width: 100%;
+    border-radius: 2px;
+    color: #DF0505;
+    text-align: center;
+    font-size: 0.5rem;
+    padding: 2px;
+    margin-top: 2px;
+}
+.dash_right h3:last-child{
+    color: #407BFF;
+    text-align: center;
+}

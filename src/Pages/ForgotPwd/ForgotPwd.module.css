@@ -1,0 +1,18 @@
+
+
+.pwdform button{
+    padding: 10px;
+    background-color: #090231;
+    color: white;
+    font-size: 1.2rem;
+    border: 0.5px solid #090231;
+    font-family: "Raleway", sans-serif;
+    border-radius: 7px;
+    margin: 30px 0 0 0;
+    width: 70%;
+    font-weight: bold;
+}
+
+.logform a {
+    text-decoration: none;
+}

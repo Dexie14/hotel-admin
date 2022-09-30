@@ -1,0 +1,95 @@
+.books{
+    background-color: white;
+    min-height: 85vh;
+    border-radius: 15px;
+    padding-bottom: 1px
+}
+
+
+.books h3{
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.1rem 0;
+    color: #7E57C2;
+}
+
+
+
+.books section {
+    display: flex;
+    width: 85%;
+    margin: 1rem auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.input input{
+    margin: 1.3rem 0;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 7px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.status span{
+    font-weight: 400;
+}
+.pay span{
+    color: red;
+}
+.Reference{
+    text-align: center;
+}
+.status h4{
+    margin: 10px;
+}
+.status{
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.8rem;
+    width: 55%;
+    box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.input button{
+    padding: 7px;
+    background-color: #090231;
+    color: white;
+    font-size: 1.2rem;
+    border: 0.5px solid #090231;
+    font-family: "Raleway", sans-serif;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.history{
+    width: 85%;
+    background-color: rgba(195, 190, 225, 0.44);;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.history img {
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.history p {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 0.7rem;
+}
+.history h6 {
+    text-align: center;
+    margin: 0.9rem 0;
+}
